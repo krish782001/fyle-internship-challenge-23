@@ -1,0 +1,58 @@
+.head {
+  margin-left: 15%;
+  height: 20%;
+  width: 70%;
+  border: 1px solid black;
+  display: flex;
+  background-color: cadetblue;
+}
+img {
+  border-radius: 50%;
+  margin: 5%;
+}
+.details {
+  text-align: center;
+  align-items: center;
+  margin: 60px;
+}
+.login {
+  font-weight: 900;
+  color: darkkhaki;
+}
+.bio {
+  font-weight: 900;
+}
+.location {
+  font-weight: 900;
+}
+
+.repos {
+  margin: 25px;
+  border: 2px solid black;
+  border-radius: 5%;
+  height: 200px;
+  width: 45%;
+  background-color: rgb(150, 210, 238);
+  display: inline-flex;
+  gap: 4%;
+}
+.name {
+  margin: 5%;
+  font-weight: 900;
+  color: coral;
+}
+.desc {
+  margin-left: 8px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+button {
+  margin-left: 8px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.lang {
+  padding: 10px;
+  background-color: brown;
+}

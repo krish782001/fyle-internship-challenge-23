@@ -1,0 +1,25 @@
+<div class="head">
+
+    <img src={{userDetail.avatar_url}} alt="">
+    <div class="details">
+        <a href="userDetail.html_url" class="login">{{userDetail.login}}</a>
+
+        <p class="bio">{{userDetail.bio}}</p>
+        <p class="location">{{userDetail.location}}</p>
+        <p class="twitter">{{userDetail.twitter_username}}</p>
+    </div>
+</div>
+
+
+
+
+<div class="repos card" *ngFor="let repo of repos ">
+
+    <div>
+        <a href="{{repo.html_url}}" class="name">{{repo.name}}</a>
+
+        <p class="desc">{{repo.description}}</p>
+
+        <button class="lang">{{repo.language}}</button>
+    </div>
+</div>
